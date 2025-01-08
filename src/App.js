@@ -6,7 +6,7 @@ import NotePage from "./pages/NotePage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-refresher">
       <div className="container dark">
         <div className="app">
           <Header />
